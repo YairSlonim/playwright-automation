@@ -1,6 +1,6 @@
 import {  expect } from '@playwright/test';
 import { test } from '../fixtures/base.fixture';
-import { InventoryPage } from '../pages/inventory.page';
+import { InventoryPage } from '../pages/Inventory.page';
 import { step } from '../step.spec';
 import { Flow } from'../Flow.spec';
 

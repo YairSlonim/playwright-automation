@@ -2,9 +2,9 @@ import { test } from '../fixtures/base.fixture'
 import { expect } from '@playwright/test'
 import { allure } from 'allure-playwright';
 import { Cart } from '../pages/Cart.page';
-import { InventoryPage } from '../pages/inventory.page';
+import { InventoryPage } from '../pages/Inventory.page';
 import { Checkout } from '../pages/Checkout.page';
-import { overview } from '../pages/overview.page';
+import { overview } from '../pages/Overview.page';
 import { step } from '../step.spec';
 import { Flow } from '../Flow.spec';
 
