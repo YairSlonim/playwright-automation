@@ -3,10 +3,10 @@ import { expect } from '@playwright/test'
 import { allure } from 'allure-playwright';
 import { Cart } from '../pages/Cart.page';
 import { InventoryPage } from '../pages/inventory.page';
-import { Checkout } from '../pages/checkout.page';
+import { Checkout } from '../pages/Checkout.page';
 import { overview } from '../pages/overview.page';
 import { step } from '../step.spec';
-import { Flow } from '../flow.spec';
+import { Flow } from '../Flow.spec';
 
 
 test.describe("end to end flows" , async()=>{
