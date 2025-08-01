@@ -27,7 +27,7 @@ export class Checkout extends basePage
 
     private get zipCode()
     {
-        return this.page.locator('[data-test="postalCode"]')
+        return this.page.locator('[data-test="postalCode"]')//sda
     }
 
     private get continueButton()
